@@ -1,5 +1,9 @@
 "# 2025-offseason-abyss" 
 
+After logging into github via VS Code you also must set your username and email via the terminal.
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
+    
 To switch branches open a terminal in VS Code and type git switch branch_name
 Before modifying any code you should switch your branch so you don't accidently write into the main branch
 
