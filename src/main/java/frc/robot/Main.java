@@ -15,7 +15,7 @@ import edu.wpi.first.wpilibj.RobotBase;
  //my name is Stelio
 public final class Main {
   private Main() {}
-  //This is the hello World function
+  //This is the hello World
   public static void HelloWorld(String[] args) {
     System.out.println("Hello World!");
   }
@@ -30,3 +30,5 @@ public final class Main {
     RobotBase.startRobot(Robot::new);
   }
 }
+// make a privite function that is not static and returuns the number 20 at end of function as integer and name it Stelio_Project. Make function instide main class
+// learn for loops
