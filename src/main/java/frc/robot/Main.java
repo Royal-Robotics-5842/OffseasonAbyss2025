@@ -14,6 +14,9 @@ import edu.wpi.first.wpilibj.RobotBase;
 public final class Main {
   private Main() {}
 
+public static void helloWorld() {
+System.out.println("hello world");
+}
   /**
    * Main initialization function. Do not perform any initialization here.
    *
