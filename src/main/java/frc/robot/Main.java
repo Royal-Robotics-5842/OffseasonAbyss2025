@@ -15,6 +15,11 @@ import edu.wpi.first.wpilibj.RobotBase;
  //my name is Stelio
 public final class Main {
   private Main() {}
+  //This is the hello World function
+  public static void HelloWorld(String[] args) {
+    System.out.println("Hello World!");
+  }
+
 
   /**
    * Main initialization function. Do not perform any initialization here.
