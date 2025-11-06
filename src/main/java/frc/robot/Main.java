@@ -15,7 +15,10 @@ import edu.wpi.first.wpilibj.RobotBase;
  //hello my name is max long 
 public final class Main {
   private Main() {}
+  public static void textprint(String[]args) {
 
+  System.out.print("Hello World!");
+}
   /**
    * Main initialization function. Do not perform any initialization here.
    *
@@ -25,3 +28,30 @@ public final class Main {
     RobotBase.startRobot(Robot::new);
   }
 }
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
