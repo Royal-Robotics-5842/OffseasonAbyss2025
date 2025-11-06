@@ -5,6 +5,7 @@
 package frc.robot;
 
 import edu.wpi.first.wpilibj.RobotBase;
+import edu.wpi.first.wpilibj2.command.RepeatCommand;
 
 /**
  * Do NOT add any static variables to this class, or any initialization at all. Unless you know what
@@ -12,11 +13,11 @@ import edu.wpi.first.wpilibj.RobotBase;
  * call.
  */
 
- //hello my name is max long 
+ //private funtion (not static) return the number 20 at the end of a funtion as an integer
+ // funtion called Max_prodject helloworld loop
 public final class Main {
   private Main() {}
-  public static void textprint(String[]args) {
-
+  public static void textprint() {
   System.out.print("Hello World!");
 }
   /**
