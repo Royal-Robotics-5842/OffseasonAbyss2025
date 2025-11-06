@@ -19,6 +19,11 @@ public final class Main {
    *
    * <p>If you change your main robot class, change the parameter type.
    */
+
+   public static void textprint(){
+    System.out.println("hello world!");
+    }
+
   public static void main(String... args) {
     RobotBase.startRobot(Robot::new);
   }
@@ -26,3 +31,5 @@ public final class Main {
 
 
 //hello my name is Sarah
+
+
